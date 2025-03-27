@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>실적자료게시판</title>
+    <style>
+        table{
+            width: 1100px;
+            margin: auto;
+            border-spacing: 0px;
+            border-collapse: collapse;
+        }
+        th{
+            border-top: 3px solid #162745;
+            color: #001852;
+            border-bottom: 1px solid #dfdfdf;
+        }
+        td{
+            height: 53px;
+            border-bottom: 1px solid #dedede;
+            text-align: center;
+        }
+        thead{
+            border-bottom: 1px solid #dbdbdb;
+            height: 60px;
+            background: #fafafa;
+        }
+        tfoot tr th{
+            border: 1px solid #e1e1e1;
+            background: #fafafa;
+            height: 48px;
+
+        }
+        .row1{
+            text-align: left;
+        }
+        h1{
+            text-align: center;
+            color: #001852;
+        }
+        caption{
+            text-align: left
+        }
+    </style>
+</head>
+<body>
+    <h1>실적자료</h1>
+    <table>
+        <caption>총 5건</caption>
+       <!-- 각각의 열의 너비 설정 -->
+        <colgroup>
+            <!-- HTML코딩에는 단위px 포함하지 않는다(css만 포함) -->
+            <col width="120">
+            <col width="198">
+            <!-- 나머지크기 자동입력 -->
+            <col width>
+            <col width="148">
+        </colgroup>
+        <thead>
+        <tr>
+            <th>연도</th>
+            <th>구분</th>
+            <th>제목</th>
+            <th>원본보기</th>
+        </thead>
+        </tr>
+        <tbody>
+        <tr>
+            <td>2024</td>
+            <td>영업실적</td>
+            <td class="row1">2024년 4분기 영업실적 Data Sheet (영문)</td>
+            <td><img src="./images/down.JPG" alt="다운로드"></td>
+        </tr>
+        <tr>
+            <td>2024</td>
+            <td>영업실적</td>
+            <td class="row1">2024년 4분기 영업실적 Data Sheet (국문)</td>
+            <td><img src="./images/down.JPG" alt="다운로드"></td>
+        </tr>
+        <tr>
+            <td>2024</td>
+            <td>영업실적</td>
+            <td class="row1">2024년 4분기 영업실적 (영문)</td>
+            <td><img src="./images/down.JPG" alt="다운로드"></td>
+        </tr>
+        <tr>
+            <td>2024</td>
+            <td>영업실적</td>
+            <td class="row1">2024년 4분기 영업실적 (국문)</td>
+            <td><img src="./images/down.JPG" alt="다운로드"></td>
+        </tr>
+        <tr>
+            <td>2024</td>
+            <td>영업실적</td>
+            <td class="row1">2024년 3분기 영업실적 Data Sheet (영문)</td>
+            <td><img src="./images/down.JPG" alt="다운로드"></td>
+        </tr>
+        <!-- <tr>
+            <td>2024</td>
+            <td>영업실적</td>
+            <td>2024년 3분기 영업실적 Data Sheet (국문)</td>
+            <td>다운로드 <img src="./ico_down_nor.png" alt="다운로드아이콘"></td>
+        </tr>
+        <tr>
+            <td>2024</td>
+            <td>영업실적</td>
+            <td>2024년 3분기 영업실적 (영문)</td>
+            <td>다운로드 <img src="./ico_down_nor.png" alt="다운로드아이콘"></td>
+        </tr>
+        <tr>
+            <td>2024</td>
+            <td>영업실적</td>
+            <td>2024년 3분기 영업실적 (국문)</td>
+            <td>다운로드 <img src="./ico_down_nor.png" alt="다운로드아이콘"></td>
+        </tr>
+        <tr>
+            <td>2024</td>
+            <td>영업실적</td>
+            <td>2024년 2분기 영업실적 Data Sheet (영문)</td>
+            <td>다운로드 <img src="./ico_down_nor.png" alt="다운로드아이콘"></td>
+        </tr>
+        <tr>
+            <td>2024</td>
+            <td>영업실적</td>
+            <td>2024년 2분기 영업실적 Data Sheet (국문)</td>
+            <td>다운로드 <img src="./ico_down_nor.png" alt="다운로드아이콘"></td>
+        </tr>
+        <tr>
+            <td>2024</td>
+            <td>영업실적</td>
+            <td>2024년 2분기 영업실적 (영문)</td>
+            <td>다운로드 <img src="./ico_down_nor.png" alt="다운로드아이콘"></td>
+        </tr>
+        <tr>
+            <td>2024</td>
+            <td>영업실적</td>
+            <td>2024년 2분기 영업실적 (국문)</td>
+            <td>다운로드 <img src="./ico_down_nor.png" alt="다운로드아이콘"></td>
+        </tr>
+        <tr>
+            <td>2024</td>
+            <td>영업실적</td>
+            <td>2024년 1분기 영업실적 Data Sheet (영문)</td>
+            <td>다운로드 <img src="./ico_down_nor.png" alt="다운로드아이콘"></td>
+        </tr>
+        <tr>
+            <td>2024</td>
+            <td>영업실적</td>
+            <td>2024년 1분기 영업실적 Data Sheet (국문)</td>
+            <td>다운로드 <img src="./ico_down_nor.png" alt="다운로드아이콘"></td>
+        </tr>
+        <tr>
+            <td>2024</td>
+            <td>영업실적</td>
+            <td>2024년 1분기 영업실적 (영문)</td>
+            <td>다운로드 <img src="./ico_down_nor.png" alt="다운로드아이콘"></td>
+        </tr>
+        <tr>
+            <td>2024</td>
+            <td>영업실적</td>
+            <td>2024년 1분기 영업실적 (국문)</td>
+            <td>다운로드 <img src="./ico_down_nor.png" alt="다운로드아이콘"></td>
+        </tr>
+        <tr>
+            <td>2023</td>
+            <td>영업실적</td>
+            <td>2024년 4분기 영업실적 Data Sheet (영문)</td>
+            <td>다운로드 <img src="./ico_down_nor.png" alt="다운로드아이콘"></td>
+        </tr>
+        <tr>
+            <td>2023</td>
+            <td>영업실적</td>
+            <td>2024년 4분기 영업실적 Data Sheet (국문)</td>
+            <td>다운로드 <img src="./ico_down_nor.png" alt="다운로드아이콘"></td>
+        </tr>
+        <tr>
+            <td>2023</td>
+            <td>영업실적</td>
+            <td>2024년 4분기 영업실적 (영문)</td>
+            <td>다운로드 <img src="./ico_down_nor.png" alt="다운로드아이콘"></td>
+        </tr>
+        <tr>
+            <td>2023</td>
+            <td>영업실적</td>
+            <td>2024년 4분기 영업실적 (국문)</td>
+            <td>다운로드 <img src="./ico_down_nor.png" alt="다운로드아이콘"></td>
+        </tr> -->
+        </tbody>
+        <tfoot>
+            <tr>
+                <!-- <td></td>
+                <td></td> -->
+                <th colspan="4">+ 더보기 ( 20/68 )</th>
+                <!-- <td></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
