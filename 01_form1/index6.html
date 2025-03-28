@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form과관련된태그응용3</title>
+    <style>
+        li{
+            list-style: none;
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        .list2{
+            margin-bottom: 10px;
+        }
+        fieldset{
+            width: 528px;
+            height: 102px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>신청과목</legend>
+            <!-- <ul> -->
+                <p>
+                    <label for="">이 달에 신청할 과목을 선택하세요 (1과목만 가능)</label>
+                </p>
+                <p class="list2">
+                    <input type="radio" name="" id="speak" checked>
+                    <label for="speak">회화</label>
+                    <input type="radio" name="" id="grammar">
+                    <label for="grammar">문법</label>
+                    <input type="radio" name="" id="writing">
+                    <label for="writing">작문</label>
+                </p>
+            <!-- </ul> -->
+        </fieldset>
+        <fieldset>
+            <legend>메일링</legend>
+            <!-- <ul> -->
+                <p>
+                    메일로 받고 싶은 뉴스 주제를 선택해 주세요(복수선택가능)
+                </p>
+                <p>
+                    <input type="checkbox" name="" id="abroad" checked>
+                    <label for="abroad">해외단신</label>
+                    <input type="checkbox" name="" id="speaking" checked>
+                    <label for="speaking">5분 회화</label>
+                    <input type="checkbox" name="" id="morning" checked>
+                    <label for="morning">모닝팝스</label>
+                </p>
+            </ul>
+        </fieldset>
+    </form>
+</body>
+</html>
